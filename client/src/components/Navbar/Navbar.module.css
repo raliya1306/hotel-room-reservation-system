@@ -1,0 +1,153 @@
+.container {
+	height: 30rem;
+	position: relative;
+	background-color: black;
+}
+
+.container img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+	opacity: 0.5;
+}
+
+.top{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	color: #ffffffed;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.location{
+	margin-top: 6px;
+}
+
+.location span{
+	margin-left: 5px;
+	font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: large;
+}
+
+.container h2{
+	margin-left: 5px;
+	margin-top: 5px;
+	font-family: "Alegreya SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container hr{
+	position: relative;
+	margin-top: 0;
+	border-top: 3px solid #ffffff;
+}
+
+.register{
+	margin-right: 10px;
+}
+
+.btnContainer button{
+	font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+	height: 32px;
+	width: 90px;
+	padding: 2px;
+	border-radius: 25px;
+	border: none;
+	background-color: #ffffffe6;
+	color: #000000;
+  cursor: pointer;
+}
+
+.navBar{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	gap: 6rem;
+	margin-top: 30px;
+	color: #ffffffe6;
+	font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: x-large;
+}
+
+.searchContainer{
+	position: relative;
+	height: 6rem;
+	background-color: #ffffffd4;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px 0px;
+	border-radius: 5px;
+	max-width: 819px;
+	margin-top: 115px;
+	margin-left: 269px;
+}
+
+.icon {
+  color: #817c7c;
+}
+
+.searchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchText {
+  color: #817c7c;
+  cursor: pointer;
+}
+
+.date {
+  position: absolute;
+  top: 80px;
+}
+
+.options {
+  position: absolute;
+  top: 75px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+	border: 0.5px solid #817c7c;
+}
+
+.optionItem{
+	width: 210px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	margin: 10px;
+	color: #5c5252;
+}
+
+.optionCounter{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.optionCounterButton{
+	width: 25px;
+	height: 30px;
+	border: 0.8px solid #817c7c;
+	color: #3f3e3e;
+}
+
+.searchBtn{
+	width: 100px;
+	height: 30px;
+	border: 0.9px solid #817c7c;
+	border-radius: 15px;
+}
