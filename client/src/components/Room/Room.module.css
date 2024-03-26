@@ -1,0 +1,98 @@
+.roomContainer{
+	margin-top: 20px;
+	font-family: "Alegreya Sans", sans-serif;
+}
+
+.roomImg{
+	width: 93%;
+	height: 20%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 5px;
+	margin: 52px;
+}
+
+.roomImg img{
+	width: 25%;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.roomDetails{
+	margin-top: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+
+.roomDesc{
+	width: 50%;
+	margin-left: 30px;
+	font-size: 18px;
+	border: 0.6px solid #b1b1b1
+	;
+	padding: 30px;
+	border-radius: 20px;
+	color: #3c3939;;
+}
+
+.facilities{
+	margin-right: 40px;
+	font-size: 20px;
+	border: 0.6px solid #b1b1b1
+	;
+	padding: 30px;
+	border-radius: 20px;
+	color: #3c3939;
+}
+
+.items{
+	list-style: square;
+}
+.items:first-child{
+	list-style: none;
+	text-align: center;
+	font-weight: 700;
+	font-style: 70px;
+	margin-bottom: 10px;
+}
+
+.priceContainer{
+	height: 120px;
+	width: 35%;
+	border: 0.6px solid #b1b1b1
+	;
+	margin: 20px 20px 20px 425px;
+	gap: 20px;
+	border: 0.6px solid #b1b1b1
+	;
+	padding: 30px;
+	border-radius: 20px;
+	color: #3c3939;
+}
+
+.priceBtn{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.bookBtn{
+	width: 100px;
+	height: 30px;
+	border: 0.9px solid #817c7c;
+	border-radius: 15px;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+.price{
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.text{
+	font-size: 16px;
+}

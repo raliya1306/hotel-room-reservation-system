@@ -1,5 +1,5 @@
 .container {
-	height: 30rem;
+	height: 19em;
 	position: relative;
 	background-color: black;
 }
@@ -80,16 +80,16 @@
 
 .searchContainer{
 	position: relative;
-	height: 6rem;
+	height: 3rem;
 	background-color: #ffffffd4;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	padding: 10px 0px;
 	border-radius: 5px;
-	max-width: 819px;
-	margin-top: 115px;
-	margin-left: 269px;
+	max-width: 702px;
+	margin-top: 57px;
+	margin-left: 339px;
 }
 
 .icon {
